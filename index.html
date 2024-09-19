@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2 class="project-name"><i>FocusMaster</i></h2>
+        </div>
+    </header>
+    <div class="card">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="buttons">
+            <button class="custom-btn start-pause-btn" id="start-pause">Start</button>
+            <button class="custom-btn reset-btn" id="reset">Reset</button>
+        </div>
+        <div class="customize">
+            <label for="work-time">Work Time:</label>
+            <input type="range" id="work-time" min="1" max="60" value="25">
+            <span id="work-time-display">25</span> minutes
+            <label for="break-time">Break Time:</label>
+            <input type="range" id="break-time" min="1" max="15" value="5">
+            <span id="break-time-display">5</span> minutes
+        </div>
+    </div>
+
+    <!-- Notification Box -->
+    <div id="notification" class="notification">
+        <p>Time's up! Take a break!</p>
+        <button id="close-notification" class="close-btn">&times;</button>
+    </div>
+
+    <!-- Beep Sound -->
+    <audio id="beep-sound" src="alarm_beeps.mp3"></audio> 
+
+    <script src="script.js"></script>
+</body>
+</html>
