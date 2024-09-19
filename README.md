@@ -1,5 +1,6 @@
 # FocusMaster - Pomodoro Timer ⏲️
-[![Demo](https://img.shields.io/badge/Demo-Weather%20App-blue)](https://ajeetku143.github.io/Guess-The-Color/)
+[![Demo](https://ajeetku143.github.io/Pomodoro-Timer/))
+
 **FocusMaster** is a stylish and customizable Pomodoro Timer to enhance productivity. It allows users to set work and break intervals with ease and includes alert notifications with sound reminders. A simple and effective tool for maintaining a balance between focused work sessions and breaks.
 
 ## 🛠️ Features
@@ -14,7 +15,6 @@
 ## 🖥️ Demo Screenshot
 
 ![Pomodoro Timer Screenshot](screenshot.png)  
-*FocusMaster in action showing customizable sliders and the countdown timer.*
 
 ## 🚀 Getting Started
 
@@ -62,12 +62,10 @@ You can easily tweak the settings to your liking:
 - **Session Tracker**: Track and display the number of Pomodoro sessions completed during the day.
 - **Mobile Optimization**: Fine-tune for mobile devices to further enhance the user experience.
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Ajeet Kumar**  
 [GitHub Profile](https://github.com/AjeetKu143)
+
 Feel free to reach out for any queries or suggestions!
